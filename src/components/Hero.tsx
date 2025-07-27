@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Search, MapPin, Calendar } from "lucide-react";
-import heroImage from "@/assets/hero-concert.jpg";
+import heroImage from "@/assets/hero-worship.jpg";
 
 const Hero = () => {
   return (
@@ -22,11 +22,11 @@ const Hero = () => {
           <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6 leading-tight">
             Find Your Next
             <span className="block bg-gradient-to-r from-accent to-primary-glow bg-clip-text text-transparent">
-              Experience
+              Faith Journey
             </span>
           </h1>
           <p className="text-xl md:text-2xl text-primary-foreground/90 mb-12 max-w-2xl mx-auto">
-            Discover amazing events, concerts, shows, and experiences happening near you
+            Discover inspiring Christian events, conferences, concerts, and worship experiences
           </p>
 
           {/* Search Bar */}
@@ -35,7 +35,7 @@ const Hero = () => {
               <div className="md:col-span-2 relative">
                 <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground h-5 w-5" />
                 <Input 
-                  placeholder="Search events, artists, venues..." 
+                  placeholder="Search Christian events, speakers, churches..." 
                   className="pl-10 h-12 border-0 bg-secondary/50 focus:bg-background transition-colors"
                 />
               </div>

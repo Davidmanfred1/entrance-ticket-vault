@@ -1,49 +1,49 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Music, Laugh, Drama, Calendar, Heart, Gamepad2 } from "lucide-react";
+import { Music, Users, BookOpen, Heart, Church, Baby } from "lucide-react";
 
 const Categories = () => {
   const categories = [
     {
       icon: Music,
-      name: "Music",
-      count: "1,234 events",
+      name: "Worship & Concerts",
+      count: "324 events",
       color: "text-blue-500",
       bgColor: "bg-blue-500/10"
     },
     {
-      icon: Laugh,
-      name: "Comedy", 
-      count: "456 events",
-      color: "text-yellow-500",
-      bgColor: "bg-yellow-500/10"
-    },
-    {
-      icon: Drama,
-      name: "Theater",
-      count: "789 events", 
-      color: "text-red-500",
-      bgColor: "bg-red-500/10"
-    },
-    {
-      icon: Calendar,
-      name: "Festivals",
-      count: "234 events",
-      color: "text-green-500", 
+      icon: BookOpen,
+      name: "Conferences", 
+      count: "156 events",
+      color: "text-green-500",
       bgColor: "bg-green-500/10"
     },
     {
-      icon: Heart,
-      name: "Arts & Culture",
-      count: "567 events",
+      icon: Users,
+      name: "Bible Study",
+      count: "289 events", 
       color: "text-purple-500",
       bgColor: "bg-purple-500/10"
     },
     {
-      icon: Gamepad2,
-      name: "Sports",
-      count: "890 events",
-      color: "text-orange-500",
+      icon: Church,
+      name: "Church Services",
+      count: "834 events",
+      color: "text-orange-500", 
       bgColor: "bg-orange-500/10"
+    },
+    {
+      icon: Heart,
+      name: "Fellowship & Community",
+      count: "467 events",
+      color: "text-red-500",
+      bgColor: "bg-red-500/10"
+    },
+    {
+      icon: Baby,
+      name: "Youth & Children",
+      count: "190 events",
+      color: "text-yellow-500",
+      bgColor: "bg-yellow-500/10"
     }
   ];
 
@@ -52,10 +52,10 @@ const Categories = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-foreground mb-4">
-            Browse Categories
+            Event Categories
           </h2>
           <p className="text-lg text-muted-foreground">
-            Find events that match your interests
+            Find Christian events that align with your spiritual journey
           </p>
         </div>
 

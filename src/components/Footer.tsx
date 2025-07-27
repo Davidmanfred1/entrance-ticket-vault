@@ -14,7 +14,7 @@ const Footer = () => {
               <span className="text-xl font-bold">Entrance</span>
             </div>
             <p className="text-primary-foreground/80 max-w-xs">
-              Your gateway to unforgettable experiences. Find and book tickets for concerts, shows, festivals, and more.
+              Your gateway to meaningful Christian events. Find and book tickets for worship concerts, conferences, fellowship gatherings, and spiritual growth experiences.
             </p>
             <div className="flex space-x-4">
               <Facebook className="h-5 w-5 hover:text-accent cursor-pointer transition-colors" />
@@ -28,11 +28,11 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold mb-4">Events</h3>
             <ul className="space-y-2 text-primary-foreground/80">
-              <li><a href="#" className="hover:text-accent transition-colors">Concerts</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Comedy Shows</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Theater</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Festivals</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors">Sports</a></li>
+              <li><a href="#" className="hover:text-accent transition-colors">Worship Concerts</a></li>
+              <li><a href="#" className="hover:text-accent transition-colors">Conferences</a></li>
+              <li><a href="#" className="hover:text-accent transition-colors">Bible Studies</a></li>
+              <li><a href="#" className="hover:text-accent transition-colors">Youth Events</a></li>
+              <li><a href="#" className="hover:text-accent transition-colors">Fellowship</a></li>
             </ul>
           </div>
 
